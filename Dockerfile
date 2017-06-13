@@ -48,7 +48,7 @@ RUN { \
     echo 'post_max_size=1G'; \
   } > /usr/local/etc/php/conf.d/100-pydio.ini
 
-ENV PYDIO_VERSION 8.0.0
+ENV PYDIO_VERSION 8.0.1
 
 VOLUME /var/www/html
 WORKDIR /var/www/html/

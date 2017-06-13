@@ -14,7 +14,7 @@ A reverse proxy with https and separate database is recommended for a production
 
 ## Upgrades
 
-The image will copy pydio to `/var/www/html` **only** if that directory does not already contain pydio.
+The image will copy pydio to `/var/www/html` on startup **only** if that directory does not already contain pydio.
 You can use the internal pydio upgrade mechanism (a backup is highly recommended before that!)
 
 ## Example `docker-compose`
